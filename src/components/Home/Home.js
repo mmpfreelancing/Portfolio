@@ -6,8 +6,9 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import {
   AiFillGithub,
+  AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+
 
 function Home() {
   return (
@@ -25,8 +26,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Mridula S</strong>
+                We're
+                <strong className="main-name"> Team MMP</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -50,14 +51,14 @@ function Home() {
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
-            <h1>Find Me On</h1>
+            <h1>Find Us On</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/mridulas20"
+                  href="https://github.com/mmpfreelancing"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -67,12 +68,12 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mridula-s-3aba33328/"
+                  href="https://www.instagram.com/mmp_freelancing/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <AiFillInstagram/>
                 </a>
               </li>
             </ul>
